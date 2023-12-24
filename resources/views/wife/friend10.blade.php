@@ -1,4 +1,4 @@
-<h1>v Friend 10</h1>
+<h1>Wife's Friend 10</h1>
 
 <a href="friend2">Friend 2</a>
 <a href="friend3">Friend 3</a>
