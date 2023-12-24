@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
  Route::get('/', function () {
      return view('welcome');
  });
@@ -82,36 +83,36 @@ Route::prefix('/son')->name('son')->group(function (){
         return view('son.friend10');
     });
 });
-Route::prefix('/wife')->name('wife')->group(function (){
+Route::prefix('/wife')->name('wife')->group(function () {
 
-    Route::get('/friend', function (){
+    Route::get('/friend', function () {
         return view('wife.friend');
     });
-    Route::get('/friend2', function (){
+    Route::get('/friend2', function () {
         return view('wife.friend2');
     });
-    Route::get('/friend3', function (){
+    Route::get('/friend3', function () {
         return view('wife.friend3');
     });
-    Route::get('/friend4', function (){
+    Route::get('/friend4', function () {
         return view('wife.friend4');
     });
-    Route::get('/friend5', function (){
+    Route::get('/friend5', function () {
         return view('wife.friend5');
     });
-    Route::get('/friend6', function (){
+    Route::get('/friend6', function () {
         return view('wife.friend6');
     });
-    Route::get('/friend7', function (){
+    Route::get('/friend7', function () {
         return view('wife.friend7');
     });
-    Route::get('/friend8', function (){
+    Route::get('/friend8', function () {
         return view('wife.friend8');
     });
-    Route::get('/friend9', function (){
+    Route::get('/friend9', function () {
         return view('wife.friend9');
     });
-    Route::get('/friend10', function (){
+    Route::get('/friend10', function () {
         return view('wife.friend10');
     });
 });
